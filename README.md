@@ -1,8 +1,16 @@
 ### `About Weather-React-App`
-git
-Tools and technologies used : Reactjs(framwork),CSS3
-API used : Open Weather Map (https://openweathermap.org/)
-Get your own API Key to run this.
+A simple weather app that provides real time temperature and weather description of any place.<br />
+Tools and technologies used : Reactjs(framework) , CSS3<br />
+API used : Open Weather Map (https://openweathermap.org/)<br />
+Get your own API Key to run this.<br />
+# APP Images:
+
+![alt text](https://github.com/KshitijDarekar/Weather-React-App/blob/master/images/index_page.jpeg)
+
+![alt text](https://github.com/KshitijDarekar/Weather-React-App/blob/master/images/demo2.jpeg)
+
+![alt text](https://github.com/KshitijDarekar/Weather-React-App/blob/master/images/demo3.jpeg)
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
