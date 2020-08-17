@@ -1,0 +1,139 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.title{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 64px;
+  text-align: center;
+  border-radius: 0 0 20px 20px;
+  margin-top: -25px;
+  color: bisque;
+  margin-bottom: 25px;
+  
+  text-shadow: 3px 6px rgba(50,50,70,0.5);
+  box-shadow: 3px 6px rgba(0,0,0,0.2);
+
+
+  
+  background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+ 
+}
+
+
+body{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+main{
+  min-height: 100vh;
+  background-image: linear-gradient(45deg, black, transparent);
+  padding: 25px;
+  
+}
+.app{
+  /* background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%); */
+
+  /* background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%); */
+  background-image: url("./assets/index.jpg");
+  background-position: bottom;
+  transition: 0.6s ease-out;
+  
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.app.cold{
+  background-image: url("./assets/cold.jpg");
+  /* background-size: cover; */
+  background-position: bottom;
+  transition: 0.6s ease-out;
+  
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.app.warm{
+  background-image: url("./assets/warm.jpg");
+  background-position: bottom;
+  transition: 0.6s ease-out;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.search-box{
+  width: 100%;
+  margin: 0 0 75px;
+}
+.search-box .search-bar{
+  display: block;
+  width: 100%;
+  padding:15px;
+
+  appearance: none;
+  outline: none;
+  background: none;
+  border: none;
+
+  background-color: rgba(255,255,255,0.6);
+  border-radius: 20px 20px 20px 20px;
+  margin: 0px;
+  
+  box-shadow: 0px 5px rgba(0,0,0,0.25);
+
+  color: grey;
+  font-size: 20px;
+
+  transition: 0.4s ease-out;
+}
+.search-box .search-bar:focus {
+  background-color: rgba(255,255,255,0.75);
+}
+
+.location-box .location{
+  color: aliceblue;
+  font-size: 32px;
+  font-weight: 500;
+  text-align: center;
+  text-decoration: beige;
+  text-shadow: 4px 4px rgba(50,50,70,0.5);
+}
+.location-box .date {
+  color: aliceblue;
+  font-size: 32px;
+  font-weight: 300;
+  font-style: italic;
+  text-align: center;
+  text-shadow: 2px 2px rgba(50,50,70,0.5);
+}
+
+.weather-box .temp {
+  position: relative;
+  /* display: inline-block; */
+  display: table;
+  margin: 30px auto;
+  background-color: rgba(255,255,255,0.3);
+  border-radius: 18px; 
+  
+  padding: 15px 20px;
+
+  color: aliceblue;
+  font-size: 104px;
+  font-size: 900;
+
+  text-shadow: 3px 6px rgba(50,50,70,0.5);
+  text-align: center;
+  box-shadow: 3px 6px rgba(0,0,0,0.2);
+
+
+}
+/* .weather-box{
+  display:flex;
+} */
+.weather-box .weather {
+  margin: auto;
+  color: aliceblue;
+  font-size: 32px;
+  font-weight: 700;
+
+  text-align: center;
+  text-shadow: 3px 6px rgba(50,50,70,0.4);
+}
